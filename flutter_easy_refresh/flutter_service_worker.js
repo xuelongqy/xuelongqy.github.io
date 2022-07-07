@@ -4,14 +4,14 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "202c58d12324c88f174d14070968c014",
-"index.html": "e78a955202e79f5152d9b7957228f886",
-"/": "e78a955202e79f5152d9b7957228f886",
-"main.dart.js": "ac89fdf1fa31c72d7b05caac25747d45",
+"index.html": "a16be828649445b3d53301f6ab315938",
+"/": "a16be828649445b3d53301f6ab315938",
+"main.dart.js": "221b8632d7c8d10f6acf67679f7abf2b",
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "manifest.json": "e160b2b5c8d82959e396eba695106a3e",
 "assets/AssetManifest.json": "215f9069d901c1259894c37b8a43b118",
-"assets/NOTICES": "87cce3917b42ae04b1a2ba6cb9843ae4",
+"assets/NOTICES": "3d49cd25e92628f53ea017670d20d8fe",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/packages/easy_refresh_halloween/assets/halloween.riv": "2d48634ea9b4494196b609270df1ef6d",
 "assets/packages/easy_refresh_skating/assets/skating.riv": "5aadb7304ac2501ce5eb8e506a384702",
