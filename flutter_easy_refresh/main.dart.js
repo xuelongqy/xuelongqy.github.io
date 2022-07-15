@@ -42354,7 +42354,7 @@ s.a.push(r.ga7B())}},
 Dn(){var s,r=this
 if(r.c.a){if(r.a.b){s=r.at.r
 s=s!=null&&s.a!=null}else s=!1
-if(s)r.at.kX(0,!0)}},
+if(s)r.at.kX(0,!0)}else r.ay=r.y},
 Cs(a,b,c,d,e){var s=this,r=s.a.dx
 if(r!=null)r.Pv()
 r=b.dx
@@ -42409,7 +42409,6 @@ r=p.y
 q=p.as
 p.y=p.KV(a,b)
 p.OV()
-if(c)p.ay=p.y
 if(r===0&&p.y===0){if(p.as!==B.az)if(p.a.Q!=null){o=p.gEA()
 s=p.a.Q
 s.toString
