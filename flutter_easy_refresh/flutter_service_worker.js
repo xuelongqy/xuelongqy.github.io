@@ -3,42 +3,40 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "58f19fe603e606c85f15a08ef2476c3f",
-"index.html": "bb477086e57f0dce5558171c98de2e86",
-"/": "bb477086e57f0dce5558171c98de2e86",
-"main.dart.js": "2dabb15b69814023c6d9e32cf0767090",
-"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"manifest.json": "e160b2b5c8d82959e396eba695106a3e",
-"assets/AssetManifest.json": "f4c3103e9f54dfee82214d4d151be8cf",
-"assets/NOTICES": "2d87f08aed786aa1c6165ae14c760b84",
+  "assets/AssetManifest.json": "f4c3103e9f54dfee82214d4d151be8cf",
+"assets/assets/image/cryptocurrency/bitcoin.svg": "496938377803aef8a290c86979191881",
+"assets/assets/image/cryptocurrency/bnb.svg": "cfec0f24a72a01b3ce3ae67506936c51",
+"assets/assets/image/cryptocurrency/dogecoin.svg": "605642c71463ca8ec99903719c98dcb0",
+"assets/assets/image/cryptocurrency/ethereum.svg": "c62c64cbd1ba9e5598b09219141bd659",
+"assets/assets/image/cryptocurrency/matic.svg": "de18f150135e1dbd88597c1a24555a50",
+"assets/assets/image/cryptocurrency/more.svg": "0c752e82c5f305f8cf3658e8812dacbe",
+"assets/assets/image/cryptocurrency/trx.svg": "628da0985dd7233d1a23f9af461b5695",
+"assets/assets/image/cryptocurrency/usdc.svg": "e77df2b1cda0fc7333b5c13ee78b9dce",
+"assets/assets/image/cryptocurrency/usdt.svg": "eac1f7bb15967c89034b440b095ad74c",
+"assets/assets/image/pay_alipay.jpg": "5bcc3afc8daed3511430c3d2b87be549",
+"assets/assets/image/pay_wechat.jpg": "6a504cff8f708f97bc3f042abdeee362",
+"assets/assets/image/user_head.jpg": "bcc8857d06fc0ea3fbddf22d4f9153d0",
+"assets/assets/rive/raster_graphics.riv": "7eb3c9bd4848b5b9a4cd90b6ba5eedd3",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/NOTICES": "d0ecc91c1d110a9eb94e42142920af2f",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/easy_refresh_halloween/assets/halloween.riv": "2d48634ea9b4494196b609270df1ef6d",
 "assets/packages/easy_refresh_skating/assets/skating.riv": "5aadb7304ac2501ce5eb8e506a384702",
 "assets/packages/easy_refresh_space/assets/space_reload.riv": "bfb1e3be267fdda9456a00f2729fcc21",
 "assets/packages/easy_refresh_squats/assets/lumberjack_squats.riv": "1feacf1409223b579af90731766bff82",
-"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/assets/rive/raster_graphics.riv": "7eb3c9bd4848b5b9a4cd90b6ba5eedd3",
-"assets/assets/image/pay_alipay.jpg": "5bcc3afc8daed3511430c3d2b87be549",
-"assets/assets/image/user_head.jpg": "bcc8857d06fc0ea3fbddf22d4f9153d0",
-"assets/assets/image/pay_wechat.jpg": "6a504cff8f708f97bc3f042abdeee362",
-"assets/assets/image/cryptocurrency/usdc.svg": "3b5972c16a9795dcf6e2e2d7e3125d21",
-"assets/assets/image/cryptocurrency/usdt.svg": "eac1f7bb15967c89034b440b095ad74c",
-"assets/assets/image/cryptocurrency/ethereum.svg": "6e912e092584adcabd222ce3486750b3",
-"assets/assets/image/cryptocurrency/dogecoin.svg": "605642c71463ca8ec99903719c98dcb0",
-"assets/assets/image/cryptocurrency/bnb.svg": "cfec0f24a72a01b3ce3ae67506936c51",
-"assets/assets/image/cryptocurrency/matic.svg": "561bc3f544a9969a74ebb250756667fe",
-"assets/assets/image/cryptocurrency/bitcoin.svg": "f92890de8d6512e2597d378f00254e71",
-"assets/assets/image/cryptocurrency/more.svg": "0c752e82c5f305f8cf3658e8812dacbe",
-"assets/assets/image/cryptocurrency/trx.svg": "628da0985dd7233d1a23f9af461b5695",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-".idea/workspace.xml": "762c061037ea355d6b1687b63403e7ce",
-".idea/modules.xml": "1eb3b065c55895e347308e50cd717dee",
-".idea/web.iml": "d727c2a632366bca02af30b0f290fd69"
+"assets/shaders/ink_sparkle.frag": "f1bec70740beb801bf93f209dfbd5662",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
+"favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
+"index.html": "a18a70debde1c5dd78c34f9500429856",
+"/": "a18a70debde1c5dd78c34f9500429856",
+"main.dart.js": "a4ccb283810d5ba4a306e864ed39df14",
+"manifest.json": "cf329e2f1e0413138e769ca3995f1fa7",
+"version.json": "fda3863bec5eb63b0178226099b55ea4"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -46,7 +44,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -145,9 +142,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
