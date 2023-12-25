@@ -6,7 +6,6 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {"assets/AssetManifest.bin": "8a19cdd491d966bdb1d0ae510c18ed36",
 "assets/AssetManifest.bin.json": "ff7790eaf3086801a725b8dc5a6643a0",
 "assets/AssetManifest.json": "e032ec306b88462b5c7cd1079984fff6",
-"assets/AssetManifest.smcbin": "213407b31a10d2ccfe4ac2a0273a4171",
 "assets/assets/image/cryptocurrency/bitcoin.svg": "496938377803aef8a290c86979191881",
 "assets/assets/image/cryptocurrency/bnb.svg": "cfec0f24a72a01b3ce3ae67506936c51",
 "assets/assets/image/cryptocurrency/dogecoin.svg": "605642c71463ca8ec99903719c98dcb0",
@@ -41,11 +40,11 @@ const RESOURCES = {"assets/AssetManifest.bin": "8a19cdd491d966bdb1d0ae510c18ed36
 "canvaskit/skwasm.worker.js": "bfb704a6c714a75da9ef320991e88b03",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "59a12ab9d00ae8f8096fffc417b6e84f",
-"index.html": "5bc2a302ed36265a34ecf850c54898e1",
-"/": "5bc2a302ed36265a34ecf850c54898e1",
-"main.dart.js": "1107755c203c10e616dd0fc11000ba77",
+"index.html": "24e2b5340a08991d8e7e9e807eab1fb1",
+"/": "24e2b5340a08991d8e7e9e807eab1fb1",
+"main.dart.js": "1b348efebe0217e2cd7d24fdc5bc63a7",
 "manifest.json": "cf329e2f1e0413138e769ca3995f1fa7",
-"version.json": "d7bbeeaf429767b9e3bc09cc601edaf0"};
+"version.json": "811c5ac64e66d554408cb78a982d2bc3"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
