@@ -52328,10 +52328,9 @@ if(r.c.a){if(r.a.b){s=r.ay.r
 s=s!=null&&s.a!=null}else s=!1
 if(s)r.ay.ns(0,!0)}else r.CW=r.z},
 KR(a,b,c,d,e,f){var s=this,r=c.dx,q=s.a.dx
-if(r==q){if(r!=null)r.arU(s)
-return}else{if(q!=null)q.KP()
-if(r!=null)r.IX(s)
-s.a=c}s.dy=b===!0
+if(r==q){if(r!=null)r.arU(s)}else{if(q!=null)q.KP()
+if(r!=null)r.IX(s)}if(c!==s.a)s.a=c
+s.dy=b===!0
 s.r=e
 s.d=d
 s.e=f==null?s.e:f
